@@ -1,0 +1,38 @@
+body {
+    background-color: #f4f7fb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-title {
+    font-weight: 800;
+    color: #1a73e8;
+    letter-spacing: 0.5px;
+}
+
+.habit-card {
+    border-radius: 12px;
+    border-left: 5px solid #1a73e8;
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.habit-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12) !important;
+}
+
+.habit-done {
+    border-left-color: #198754;
+    background-color: #f0faf3;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.progress {
+    border-radius: 12px;
+}
